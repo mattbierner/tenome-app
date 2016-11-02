@@ -7,8 +7,9 @@ Prototyping iOS app used for some of my modded reality experiments, including:
 * [All This Blood][blood] – Using my heartbeat to modulate my vision.
 * [Others...][mr]
 
-
 See the above posts for more details about these experiments, including information about the hardware and software used.
+
+All the app does is load a webpage fullscreen in landscape orientation, with the added ability to record the screen.
 
 
 # Credits
