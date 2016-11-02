@@ -17,7 +17,8 @@ NSString* const defaultUrl = @"http://192.168.1.6:8080/test.html";
     
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onDoubleTap:)];
     tapGesture.numberOfTapsRequired = 2;
-    tapGesture.delaysTouchesBegan = YES;
+    tapGesture.delegate = self;
+
     [self.webView addGestureRecognizer:tapGesture];
 }
 
@@ -57,6 +58,10 @@ NSString* const defaultUrl = @"http://192.168.1.6:8080/test.html";
         recordButton.hidden = YES;
         [recorder startRecording];
     }
+}
+
+- (BOOL) gestureRecognizer:(UIGestureRecognizer*)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer*)otherGestureRecognizer {
+    return YES;
 }
 
 - (void) onDoubleTap:(UIGestureRecognizer*)recognizer {
