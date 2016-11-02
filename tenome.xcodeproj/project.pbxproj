@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		891AB0E11D62C397004C8781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 891AB0E01D62C397004C8781 /* main.m */; };
+		891AB0E41D62C397004C8781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 891AB0E31D62C397004C8781 /* AppDelegate.m */; };
+		891AB0E71D62C397004C8781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891AB0E61D62C397004C8781 /* ViewController.m */; };
+		891AB0EA1D62C397004C8781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891AB0E81D62C397004C8781 /* Main.storyboard */; };
+		891AB0EC1D62C397004C8781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 891AB0EB1D62C397004C8781 /* Assets.xcassets */; };
+		891AB0EF1D62C397004C8781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891AB0ED1D62C397004C8781 /* LaunchScreen.storyboard */; };
+		892AC8001DC99208003A59B4 /* ASScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 892AC7FF1DC99208003A59B4 /* ASScreenRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891AB0F61D62C397004C8781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891AB0D41D62C392004C8781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891AB0DB1D62C392004C8781;
+			remoteInfo = tenome;
+		};
+		891AB1011D62C397004C8781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 891AB0D41D62C392004C8781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891AB0DB1D62C392004C8781;
+			remoteInfo = tenome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		891AB0DC1D62C392004C8781 /* tenome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tenome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		891AB0E01D62C397004C8781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		891AB0E21D62C397004C8781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		891AB0E31D62C397004C8781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		891AB0E51D62C397004C8781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		891AB0E61D62C397004C8781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		891AB0E91D62C397004C8781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		891AB0EB1D62C397004C8781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		891AB0EE1D62C397004C8781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		891AB0F01D62C397004C8781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		891AB0F51D62C397004C8781 /* tenomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tenomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		891AB1001D62C397004C8781 /* tenomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tenomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		892AC7FE1DC99208003A59B4 /* ASScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASScreenRecorder.h; sourceTree = "<group>"; };
+		892AC7FF1DC99208003A59B4 /* ASScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASScreenRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		891AB0D91D62C392004C8781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0F21D62C397004C8781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0FD1D62C397004C8781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891AB0D31D62C392004C8781 = {
+			isa = PBXGroup;
+			children = (
+				891AB0DE1D62C397004C8781 /* tenome */,
+				891AB0DD1D62C392004C8781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		891AB0DD1D62C392004C8781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				891AB0DC1D62C392004C8781 /* tenome.app */,
+				891AB0F51D62C397004C8781 /* tenomeTests.xctest */,
+				891AB1001D62C397004C8781 /* tenomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		891AB0DE1D62C397004C8781 /* tenome */ = {
+			isa = PBXGroup;
+			children = (
+				892AC7FE1DC99208003A59B4 /* ASScreenRecorder.h */,
+				892AC7FF1DC99208003A59B4 /* ASScreenRecorder.m */,
+				891AB0E21D62C397004C8781 /* AppDelegate.h */,
+				891AB0E31D62C397004C8781 /* AppDelegate.m */,
+				891AB0E51D62C397004C8781 /* ViewController.h */,
+				891AB0E61D62C397004C8781 /* ViewController.m */,
+				891AB0E81D62C397004C8781 /* Main.storyboard */,
+				891AB0EB1D62C397004C8781 /* Assets.xcassets */,
+				891AB0ED1D62C397004C8781 /* LaunchScreen.storyboard */,
+				891AB0F01D62C397004C8781 /* Info.plist */,
+				891AB0DF1D62C397004C8781 /* Supporting Files */,
+			);
+			path = tenome;
+			sourceTree = "<group>";
+		};
+		891AB0DF1D62C397004C8781 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				891AB0E01D62C397004C8781 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891AB0DB1D62C392004C8781 /* tenome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891AB1091D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenome" */;
+			buildPhases = (
+				891AB0D81D62C392004C8781 /* Sources */,
+				891AB0D91D62C392004C8781 /* Frameworks */,
+				891AB0DA1D62C392004C8781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tenome;
+			productName = tenome;
+			productReference = 891AB0DC1D62C392004C8781 /* tenome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		891AB0F41D62C397004C8781 /* tenomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891AB10C1D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenomeTests" */;
+			buildPhases = (
+				891AB0F11D62C397004C8781 /* Sources */,
+				891AB0F21D62C397004C8781 /* Frameworks */,
+				891AB0F31D62C397004C8781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891AB0F71D62C397004C8781 /* PBXTargetDependency */,
+			);
+			name = tenomeTests;
+			productName = tenomeTests;
+			productReference = 891AB0F51D62C397004C8781 /* tenomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		891AB0FF1D62C397004C8781 /* tenomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 891AB10F1D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenomeUITests" */;
+			buildPhases = (
+				891AB0FC1D62C397004C8781 /* Sources */,
+				891AB0FD1D62C397004C8781 /* Frameworks */,
+				891AB0FE1D62C397004C8781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891AB1021D62C397004C8781 /* PBXTargetDependency */,
+			);
+			name = tenomeUITests;
+			productName = tenomeUITests;
+			productReference = 891AB1001D62C397004C8781 /* tenomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		891AB0D41D62C392004C8781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Matt Bierner";
+				TargetAttributes = {
+					891AB0DB1D62C392004C8781 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JM8U5NPN89;
+					};
+					891AB0F41D62C397004C8781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 891AB0DB1D62C392004C8781;
+					};
+					891AB0FF1D62C397004C8781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 891AB0DB1D62C392004C8781;
+					};
+				};
+			};
+			buildConfigurationList = 891AB0D71D62C392004C8781 /* Build configuration list for PBXProject "tenome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 891AB0D31D62C392004C8781;
+			productRefGroup = 891AB0DD1D62C392004C8781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				891AB0DB1D62C392004C8781 /* tenome */,
+				891AB0F41D62C397004C8781 /* tenomeTests */,
+				891AB0FF1D62C397004C8781 /* tenomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		891AB0DA1D62C392004C8781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891AB0EF1D62C397004C8781 /* LaunchScreen.storyboard in Resources */,
+				891AB0EC1D62C397004C8781 /* Assets.xcassets in Resources */,
+				891AB0EA1D62C397004C8781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0F31D62C397004C8781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0FE1D62C397004C8781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		891AB0D81D62C392004C8781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891AB0E71D62C397004C8781 /* ViewController.m in Sources */,
+				891AB0E41D62C397004C8781 /* AppDelegate.m in Sources */,
+				891AB0E11D62C397004C8781 /* main.m in Sources */,
+				892AC8001DC99208003A59B4 /* ASScreenRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0F11D62C397004C8781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891AB0FC1D62C397004C8781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		891AB0F71D62C397004C8781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891AB0DB1D62C392004C8781 /* tenome */;
+			targetProxy = 891AB0F61D62C397004C8781 /* PBXContainerItemProxy */;
+		};
+		891AB1021D62C397004C8781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891AB0DB1D62C392004C8781 /* tenome */;
+			targetProxy = 891AB1011D62C397004C8781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		891AB0E81D62C397004C8781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891AB0E91D62C397004C8781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		891AB0ED1D62C397004C8781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				891AB0EE1D62C397004C8781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		891AB1071D62C397004C8781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		891AB1081D62C397004C8781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		891AB10A1D62C397004C8781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tenome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		891AB10B1D62C397004C8781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tenome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		891AB10D1D62C397004C8781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tenomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tenome.app/tenome";
+			};
+			name = Debug;
+		};
+		891AB10E1D62C397004C8781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tenomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tenome.app/tenome";
+			};
+			name = Release;
+		};
+		891AB1101D62C397004C8781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tenomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tenome;
+			};
+			name = Debug;
+		};
+		891AB1111D62C397004C8781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tenomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattbierner.tenomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tenome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		891AB0D71D62C392004C8781 /* Build configuration list for PBXProject "tenome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891AB1071D62C397004C8781 /* Debug */,
+				891AB1081D62C397004C8781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891AB1091D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891AB10A1D62C397004C8781 /* Debug */,
+				891AB10B1D62C397004C8781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891AB10C1D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891AB10D1D62C397004C8781 /* Debug */,
+				891AB10E1D62C397004C8781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		891AB10F1D62C397004C8781 /* Build configuration list for PBXNativeTarget "tenomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				891AB1101D62C397004C8781 /* Debug */,
+				891AB1111D62C397004C8781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 891AB0D41D62C392004C8781 /* Project object */;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10109" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJB-EK-86S">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHn-HC-SRo">
+                                <rect key="frame" x="262" y="0.0" width="75" height="29"/>
+                                <state key="normal" title="Refresh">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D7v-Kg-cCg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2d-ii-cyS">
+                                <rect key="frame" x="276" y="341" width="49" height="30"/>
+                                <state key="normal" title="Record">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hitRecordButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YUh-xd-3US"/>
+                                    <action selector="refresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OTn-lY-OND"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oJB-EK-86S" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="3h7-vQ-njG"/>
+                            <constraint firstItem="k2d-ii-cyS" firstAttribute="bottom" secondItem="oJB-EK-86S" secondAttribute="bottom" constant="10" id="AaI-gt-Top"/>
+                            <constraint firstItem="oJB-EK-86S" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="BEx-d6-UZB"/>
+                            <constraint firstItem="k2d-ii-cyS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PTa-NF-OyB"/>
+                            <constraint firstItem="BHn-HC-SRo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yJ2-L7-dre"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <outlet property="recordButton" destination="k2d-ii-cyS" id="8hW-Ru-h0v"/>
+                        <outlet property="refreshButton" destination="BHn-HC-SRo" id="a0G-56-xus"/>
+                        <outlet property="webView" destination="oJB-EK-86S" id="d7I-w9-obH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="497" y="432"/>
+        </scene>
+    </scenes>
+</document>

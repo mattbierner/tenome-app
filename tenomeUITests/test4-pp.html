@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>My Eyes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    
+    <style>
+        html, body {
+            height: 100%;
+            min-height: 100%;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+    
+        img.main {
+            height: 100%;
+            max-height: 100%;
+            width: 50%;
+            display: block;
+            float: left;
+            transform: rotate(180deg);
+        }
+        
+        img.pp {
+            display: block;
+            width: 20%;
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            transform: rotate(180deg);
+        }
+        
+        #ppr {
+            margin-left: 50%;
+        }
+        
+    </style>
+    
+    </head>
+    <body>
+        <img src="http://172.20.10.3:8080/?action=stream_0" />
+        <img src="http://172.20.10.3:8080/?action=stream_1" class="pp" id="ppl" />
+        <img src="http://172.20.10.3:8080/?action=stream_0" />
+        <img src="http://172.20.10.3:8080/?action=stream_1" class="pp" id="ppr" />
+    </body>
+</html>
